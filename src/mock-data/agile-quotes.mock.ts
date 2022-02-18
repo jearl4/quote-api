@@ -16,7 +16,7 @@ export const agileQuotes: Quote[] = [
     author: 'Mary Poppendieck',
   },
   {
-    quote: 'There is nothing so useless as doing efficientlythat which should not be done at all.',
-    author: 'Mary Poppendieck',
+    quote: 'There is nothing so useless as doing efficiently that which should not be done at all.',
+    author: 'Peter Drucker',
   },
 ];
