@@ -6,7 +6,7 @@ phases:
  pre_build:
    commands:
      - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
-     - REPOSITORY_URI=018329519556.dkr.ecr.us-east-1.amazonaws.com/quote-api
+     - REPOSITORY_URI=018329519556.dkr.ecr.us-east-1.amazonaws.com/nestjs-quote
      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
      - IMAGE_TAG=${COMMIT_HASH:=latest}
  build:
