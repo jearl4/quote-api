@@ -1,7 +1,7 @@
 version: 0.2
 env:
   variables:
-    REPOSITORY_URI:018329519556.dkr.ecr.us-east-1.amazonaws.com/nestjs-quote
+    REPOSITORY_URI: "018329519556.dkr.ecr.us-east-1.amazonaws.com/nestjs-quote"
 phases:
  install:
    runtime-versions:
